@@ -25,9 +25,3 @@ app.use(wordRouter)
 
 
 
-
-
-
-app.listen(process.env.PORT , (req , res)=>{
-    console.log(`Server is working on ${process.env.PORT}`)
-})
